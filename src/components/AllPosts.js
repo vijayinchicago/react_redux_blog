@@ -57,8 +57,11 @@ renderPosts = () => {
         )
     })
 
-    if (postsViews.length < 1) {
-        return (<p>No posts in this category.</p>)
+ if (postsViews.length < 1) {
+      if(posts.category && posts.category.length>1){
+        return(<Redirect to="/" />)
+        //return (<p>No posts in this category.</p>)
+      }
     } else {
         return postsViews
     }
