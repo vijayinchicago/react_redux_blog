@@ -11,8 +11,8 @@ Install libraries: npm install
 
 Dependencies
 
-react: React is a JavaScript library for building user interfaces.
-react-dom: React package for working with the DOM.
+- react: React is a JavaScript library for building user interfaces.
+- react-dom: React package for working with the DOM.
 react-redux: Official React bindings for Redux
 react-router-dom: DOM bindings for React Router
 redux: Predictable state container for JavaScript apps
