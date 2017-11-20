@@ -1,0 +1,45 @@
+.comments-section {
+    margin-top: 36px;
+    margin-bottom: -16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .comments-section p {
+    font-size: 20px;
+    margin-left: 36px;
+  }
+  
+  .comments-sort {
+      margin-left: 16px;
+  }
+
+  #no-comments {
+      margin-left: 36px;
+  }
+
+  .comments-section-title {
+      display: flex;
+      align-items: center;
+  }
+
+  .comments-section button {
+    width: 120px;
+    background-color: #6772e5;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-weight: 600;
+    font-size: 12px;
+    outline: none;
+    margin-right: 36px;
+  }
+  
+  .comments-section button:hover {
+    background-color: #7883e6;
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  }

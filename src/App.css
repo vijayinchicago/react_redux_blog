@@ -1,0 +1,17 @@
+body{
+	width: 80%
+}
+.column {
+    float: left;
+    padding: 10px;
+ }
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+
