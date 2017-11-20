@@ -5,31 +5,32 @@ This is a React.JS based app that allows you to create/edit/delete/like/dislike 
 
 ## Install
 
-Clone this repository: git clone https://github.com/vijayinchicago/react_redux_blog.git
-cd into folder: cd react_redux_blog-master
-Install libraries: npm install
+- Clone this repository: git clone https://github.com/vijayinchicago/react_redux_blog.git
+- cd into folder: cd react_redux_blog-master
+- Install libraries: npm install
 
 Dependencies
 
 - react: React is a JavaScript library for building user interfaces.
 - react-dom: React package for working with the DOM.
-react-redux: Official React bindings for Redux
-react-router-dom: DOM bindings for React Router
-redux: Predictable state container for JavaScript apps
-redux-form: A higher order component decorator for forms using Redux and React
-redux-thunk: Thunk middleware for Redux.
-Backend Server
-bootstrap: The most popular front-end framework for developing responsive, mobile first projects on the web.
-fontawesome: Get the Font Awesome unicode character by the icon name.
-
-This project requires an additional backend server. Please find more information [here](https://github.com/fade2g/reactnd-project-readable-starter).
-
+- react-redux: Official React bindings for Redux
+- react-router-dom: DOM bindings for React Router
+- redux: Predictable state container for JavaScript apps
+- redux-form: A higher order component decorator for forms using Redux and React
+- redux-thunk: Thunk middleware for Redux.
+- bootstrap: The most popular front-end framework for developing responsive, mobile first projects on the web.
+- fontawesome: Get the Font Awesome unicode character by the icon name.
 
 ## Running the app
 From a bash console:
 `npm start`
 
 This will start a local web server at port 3000, and open a web browser. You can now use the app
+
+## Backend Server
+
+This project requires an additional backend server. Please find more information [here](https://github.com/fade2g/reactnd-project-readable-starter).
+
 
 ## Known bugs:
 
