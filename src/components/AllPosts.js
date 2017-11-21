@@ -5,6 +5,7 @@ import PostsNav from './PostsNav'
 import { Route, Switch } from 'react-router-dom'
 import PostDetails from './PostDetails'
 import { sortPosts } from '../actions/user_actions'
+import {Redirect} from 'react-router'
 
 
 class AllPosts extends Component {
@@ -47,17 +48,15 @@ renderPostsRoutes = () => {
 
 renderPosts = () => {
     const { posts } = this.props
-    console.log(posts)
-
+   
     const postsViews = posts.filter( post => post.deleted === false).map( post => {
-      console.log({post})
         return (
 
             <PostsNav key={post.id} data={post}/>
         )
     })
 
- if (postsViews.length < 1) {
+    if (postsViews.length < 1) {
       if(posts.category && posts.category.length>1){
         return(<Redirect to="/" />)
         //return (<p>No posts in this category.</p>)
@@ -66,7 +65,6 @@ renderPosts = () => {
         return postsViews
     }
 }
-
 }
 
 const mapDispatchToProps = dispatch => ({
